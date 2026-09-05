@@ -1,0 +1,34 @@
+HOW TO REPLACE THE CURRENT VERSION
+
+1. Open the existing GitHub repository:
+   healthcare-fraud-phd-framework
+
+2. Replace:
+   streamlit_app.py
+   requirements.txt
+   README.md
+
+3. Commit to main.
+
+4. Streamlit will normally redeploy automatically.
+   If required, open Manage app and reboot.
+
+WHY THIS VERSION IS DIFFERENT
+- It is structured as an implementation workbench.
+- It shows the actual stages of implementation.
+- It includes data loading, preprocessing, model training, evaluation,
+  explainability, hashing, Merkle verification, and reproducibility.
+- It removes viva-oriented content, decorative branding, emojis, and chat-like text.
+- It separates published research benchmarks from live demonstration outputs.
+
+PANEL PRESENTATION ORDER
+1. Dataset and Integration
+2. Preprocessing
+3. Model Training
+4. Evaluation
+5. Explainability
+6. Blockchain Evidence
+7. Reproducibility Record
+
+DO NOT PRESENT LIVE DEMO RESULTS AS PUBLISHED RESULTS unless the exact original research data
+and pipeline have been loaded.
