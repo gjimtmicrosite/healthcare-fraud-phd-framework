@@ -1,0 +1,30 @@
+HOW TO UPDATE YOUR EXISTING STREAMLIT APP
+
+1. Open your GitHub repository: healthcare-fraud-phd-framework
+2. Replace these files with the files from this ZIP:
+   - streamlit_app.py
+   - requirements.txt
+   - README.md
+3. Commit changes to the main branch.
+4. Streamlit Community Cloud should redeploy automatically.
+5. If it does not, open Manage app and reboot/redeploy.
+
+The revised interface removes:
+- Viva Mode
+- decorative AI branding
+- chat-style wording
+- unnecessary emojis
+
+It adds:
+- Dataset Profile
+- exact reported dataset table sizes
+- class distribution
+- feature engineering summary
+- SMOTE-Tomek details
+- GroupKFold validation
+- model hyperparameters
+- research objectives mapping
+
+IMPORTANT:
+Do not present the web-demo dataset as the original experimental dataset.
+Published results and published dataset statistics are displayed separately.
